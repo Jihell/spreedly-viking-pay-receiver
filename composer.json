@@ -1,0 +1,22 @@
+{
+    "name": "jihel/spreedly-viking-pay-receiver",
+    "description": "Viking pay receiver for JihelOmnipaySpreedlyBridge",
+    "authors": [
+        {
+            "name": "Joseph Lemoine",
+            "email": "lemoine.joseph@gmail.com"
+        }
+    ],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0",
+        "symfony/symfony": ">=2.8",
+        "jihel/spreedly-viking-pay-receiver": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jihel\\VikingPayReceiver\\": "src"
+        }
+    }
+}
